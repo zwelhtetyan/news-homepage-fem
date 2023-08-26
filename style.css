@@ -38,6 +38,10 @@ button {
   --very-dark-blue: hsl(240, 100%, 5%);
 }
 
+body {
+  background-color: var(--off-white);
+}
+
 .main-container {
   max-width: 1200px;
   margin: 0 auto;
