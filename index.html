@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="favicon" href="./assets/images/favicon-32x32.png" />
+    <title>Frontend Mentor | News homepage</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <!-- header -->
+      <header class="header">
+        <div class="logo">
+          <img src="./assets/images/logo.svg" alt="" />
+        </div>
+
+        <nav class="nav"></nav>
+        <div class="mobile-menu-icon mobile-menu-icon-open">
+          <svg width="40" height="17" xmlns="http://www.w3.org/2000/svg">
+            <g fill="#00001A" fill-rule="evenodd">
+              <path d="M0 0h40v3H0zM0 7h40v3H0zM0 14h40v3H0z" />
+              <path d="M0 0h40v3H0z" />
+            </g>
+          </svg>
+        </div>
+      </header>
+
+      <!-- main -->
+      <main class="main">
+        <!-- left -->
+        <div class="left">
+          <img
+            src="./assets/images/image-web-3-desktop.jpg"
+            alt="web-3"
+            class="left_hero_image"
+          />
+
+          <div class="left-content-container">
+            <div class="left-content-container_left">
+              <h1>The Bright Future of Web 3.0?</h1>
+            </div>
+
+            <div class="left-content-container_right">
+              <p>
+                We dive into the next evolution of the web that claims to put
+                the power of the platforms back into the hands of the people.
+                But is it really fulfilling its promise?
+              </p>
+
+              <button>read more</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- right -->
+        <div class="right">
+          <h1>New</h1>
+
+          <div class="right-content-container"></div>
+        </div>
+      </main>
+
+      <!-- footer -->
+      <footer class="footer">
+        <div class="footer-content-container"></div>
+      </footer>
+    </div>
+
+    <!-- modal -->
+    <div class="modal">
+      <div class="mobile-menu-container">
+        <div class="mobile-icon-container">
+          <div class="mobile-menu-icon mobile-menu-icon-close">
+            <svg width="32" height="31" xmlns="http://www.w3.org/2000/svg">
+              <g fill="#00001A" fill-rule="evenodd">
+                <path d="m2.919.297 28.284 28.284-2.122 2.122L.797 2.419z" />
+                <path d="M.797 28.581 29.081.297l2.122 2.122L2.919 30.703z" />
+              </g>
+            </svg>
+          </div>
+        </div>
+
+        <nav class="mobile-nav"></nav>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
